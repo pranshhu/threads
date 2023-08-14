@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^4.23.2",
+    "@clerk/themes": "^1.7.5",
     "@types/node": "20.4.10",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
     "@uploadthing/react": "^5.2.1",
+    "all": "^0.0.0",
     "autoprefixer": "10.4.14",
     "mongose": "^0.0.2-security",
     "next": "13.4.13",
