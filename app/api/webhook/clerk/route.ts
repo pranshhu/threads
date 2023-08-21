@@ -132,7 +132,7 @@ export const POST = async (request: Request) => {
       const { organization, public_user_data } = evnt?.data;
       console.log("removed", evnt?.data);
 
-      // await removeUserFromCommunity(public_user_data.user_id, organization.id);
+      await removeUserFromCommunity(public_user_data.user_id, organization.id);
 
       return NextResponse.json({ message: "Member removed" }, { status: 201 });
     } catch (err) {
